@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   delete "/users/:id", to: "users#destroy"
   # get "/users", to: "users#index"
 
+  resources :artworks
 end
